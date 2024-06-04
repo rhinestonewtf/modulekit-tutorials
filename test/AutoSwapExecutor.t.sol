@@ -41,6 +41,8 @@ contract AutoSwapExecutorTest is RhinestoneModuleKit, Test {
         vm.selectFork(mainnetFork);
         vm.rollFork(19_274_877);
 
+        vm.allowCheatcodes(0x864B12d347dafD27Ce36eD763a3D6764F182F835);
+
         // Initialize the RhinestoneModuleKit
         init();
 
